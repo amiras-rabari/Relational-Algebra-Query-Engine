@@ -24,14 +24,10 @@ The formal grammar, precedence table and the ambiguity demonstration are in `GRA
 
 ## 1. Build
 
-The project is built with CMake (CLion works directly). Build in **Release** mode. A Debug build is many times slower and will distort every timing in `REPORT.md`.
+The project is built with CMake (Using IDE Clion)
 
-```
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --config Release
-```
 
-Or If using any Linux system simply copy all *.cpp and *.h files into local folder and make sure you are inside that folder and  run this command in terminal to compile and build 
+Project includes Makefile and Steps are below
 
 ```latex
 Note: DataGenerator is a Tool used only for Report as Current main() of src takes user
