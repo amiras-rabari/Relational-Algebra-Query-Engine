@@ -52,7 +52,7 @@ namespace query
         TokenType type; // What kind of token is this?
         std::string lexeme; // Exact text from input (e.g., "-30")
 
-        // The Payload (handles your variations):
+        // The Payload (handles variations):
         // std::monostate means "no value" (used for keywords/operators).
         // std::string stores decoded strings and the complete integer text,
         // so integer literals are not limited by the range of int.
